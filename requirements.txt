@@ -1,0 +1,6 @@
+torch
+torchvision
+streamlit
+pillow
+numpy
+huggingface_hub
