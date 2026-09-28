@@ -1,0 +1,600 @@
+{
+  "Apple___Apple_scab": {
+    "plant": "Apple",
+    "disease": "Apple scab",
+    "french_name": "Tavelure du pommier",
+    "symptoms": [
+      "Taches brunes et rondes sur les feuilles",
+      "Déformation des feuilles",
+      "Lésions noires sur les fruits",
+      "Chute prématurée des feuilles"
+    ],
+    "treatment": [
+      "Enlever les feuilles infectées",
+      "Améliorer la circulation de l'air",
+      "Utiliser des fongicides (soufre, cuivre)",
+      "Pulvériser en début de saison"
+    ]
+  },
+  "Apple___Black_rot": {
+    "plant": "Apple",
+    "disease": "Black rot",
+    "french_name": "Pourriture noire du pommier",
+    "symptoms": [
+      "Taches circulaires noires sur les feuilles",
+      "Cankers (chancres) sur les branches",
+      "Pourriture noire des fruits",
+      "Dépérissement des branches"
+    ],
+    "treatment": [
+      "Enlever les branches infectées",
+      "Tailler les bois morts",
+      "Utiliser des fongicides (cuivre, soufre)",
+      "Désinfecter les outils de taille"
+    ]
+  },
+  "Apple___Cedar_apple_rust": {
+    "plant": "Apple",
+    "disease": "Cedar apple rust",
+    "french_name": "Rouille grillagée du pommier",
+    "symptoms": [
+      "Taches jaune-orange sur les feuilles",
+      "Projectiles gélatineux orange",
+      "Déformation des fruits",
+      "Chute des feuilles"
+    ],
+    "treatment": [
+      "Enlever les genévriers voisins si possible",
+      "Appliquer des fongicides (myclobutanil)",
+      "Pulvériser avant le débourrement",
+      "Utiliser des variétés résistantes"
+    ]
+  },
+  "Apple___healthy": {
+    "plant": "Apple",
+    "disease": "Healthy",
+    "french_name": "Feuille saine",
+    "symptoms": [
+      "Aucun symptôme visible",
+      "Feuille verte et vigoureuse"
+    ],
+    "treatment": [
+      "Aucun traitement nécessaire",
+      "Continuer la gestion normale"
+    ]
+  },
+  "Blueberry___healthy": {
+    "plant": "Blueberry",
+    "disease": "Healthy",
+    "french_name": "Feuille saine",
+    "symptoms": [
+      "Aucun symptôme visible",
+      "Feuille verte et saine"
+    ],
+    "treatment": [
+      "Aucun traitement nécessaire",
+      "Maintenir les conditions normales"
+    ]
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "plant": "Cherry",
+    "disease": "Powdery mildew",
+    "french_name": "Oïdium du cerisier",
+    "symptoms": [
+      "Poudre blanche sur les feuilles",
+      "Feuilles déformées et rabougries",
+      "Inhibition de la croissance",
+      "Chute prématurée des feuilles"
+    ],
+    "treatment": [
+      "Appliquer du soufre mouillable",
+      "Améliorer la ventilation",
+      "Enlever les feuilles affectées",
+      "Utiliser des fongicides (bicarbonate)"
+    ]
+  },
+  "Cherry_(including_sour)___healthy": {
+    "plant": "Cherry",
+    "disease": "Healthy",
+    "french_name": "Feuille saine",
+    "symptoms": [
+      "Aucun symptôme visible",
+      "Feuille verte et vigoureuse"
+    ],
+    "treatment": [
+      "Aucun traitement nécessaire",
+      "Gestion normale"
+    ]
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "plant": "Corn (maize)",
+    "disease": "Cercospora leaf spot / Gray leaf spot",
+    "french_name": "Tache grise du maïs",
+    "symptoms": [
+      "Taches grises rectangulaires sur les feuilles",
+      "Centres gris avec bord rougeâtre",
+      "Coalescence des taches",
+      "Sénescence prématurée"
+    ],
+    "treatment": [
+      "Rotation des cultures",
+      "Utiliser des variétés résistantes",
+      "Appliquer des fongicides (pyraclostrobine)",
+      "Contrôler l'humidité"
+    ]
+  },
+  "Corn_(maize)___Common_rust_": {
+    "plant": "Corn (maize)",
+    "disease": "Common rust",
+    "french_name": "Rouille commune du maïs",
+    "symptoms": [
+      "Pustules rouille-orange sur les feuilles",
+      "Distribution sur les deux faces",
+      "Réduction de la photosynthèse",
+      "Affaiblissement de la plante"
+    ],
+    "treatment": [
+      "Cultiver des variétés résistantes",
+      "Pulvériser des fongicides (carbendazim)",
+      "Enlever les cultures hôtes alternatives",
+      "Irriguer correctement"
+    ]
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "plant": "Corn (maize)",
+    "disease": "Northern Leaf Blight",
+    "french_name": "Brûlure foliaire nordique du maïs",
+    "symptoms": [
+      "Taches elliptiques gris-brun",
+      "Progression des taches sur les feuilles",
+      "Nécrose des tissus foliaires",
+      "Flétrissement prématuré"
+    ],
+    "treatment": [
+      "Utiliser des variétés résistantes",
+      "Appliquer des fongicides (propiconazole)",
+      "Rotation des cultures",
+      "Éliminer les résidus infectés"
+    ]
+  },
+  "Corn_(maize)___healthy": {
+    "plant": "Corn (maize)",
+    "disease": "Healthy",
+    "french_name": "Feuille saine",
+    "symptoms": [
+      "Aucun symptôme visible",
+      "Feuille verte et vigoureuse"
+    ],
+    "treatment": [
+      "Aucun traitement nécessaire",
+      "Gestion normale"
+    ]
+  },
+  "Grape___Black_rot": {
+    "plant": "Grape",
+    "disease": "Black rot",
+    "french_name": "Pourriture noire de la vigne",
+    "symptoms": [
+      "Taches circulaires brunes sur les feuilles",
+      "Sporulation noire au centre",
+      "Pourriture noire des fruits",
+      "Dessiccation des baies"
+    ],
+    "treatment": [
+      "Enlever les baies infectées",
+      "Appliquer du cuivre avant la floraison",
+      "Utiliser des fongicides (myclobutanil)",
+      "Améliorer la circulation de l'air"
+    ]
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "plant": "Grape",
+    "disease": "Esca (Black Measles)",
+    "french_name": "Esca de la vigne",
+    "symptoms": [
+      "Taches mouchetées rouges/brunes",
+      "Bandes nécrotiques entre les nervures",
+      "Flétrissement en été",
+      "Dépérissement des ceps"
+    ],
+    "treatment": [
+      "Tailler les bois affectés",
+      "Parer les plaies à la benomyl",
+      "Utiliser des variétés résistantes",
+      "Gestion du stress hydrique"
+    ]
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "plant": "Grape",
+    "disease": "Leaf blight (Isariopsis Leaf Spot)",
+    "french_name": "Brûlure foliaire de la vigne",
+    "symptoms": [
+      "Taches circulaires avec halos",
+      "Progression concentrique des lésions",
+      "Chute des feuilles",
+      "Exposition des grappes au soleil"
+    ],
+    "treatment": [
+      "Appliquer du soufre mouillable",
+      "Utiliser des fongicides (difénoconazole)",
+      "Enlever les feuilles affectées",
+      "Améliorer la ventilation"
+    ]
+  },
+  "Grape___healthy": {
+    "plant": "Grape",
+    "disease": "Healthy",
+    "french_name": "Feuille saine",
+    "symptoms": [
+      "Aucun symptôme visible",
+      "Feuille verte et saine"
+    ],
+    "treatment": [
+      "Aucun traitement nécessaire",
+      "Gestion normale"
+    ]
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "plant": "Orange",
+    "disease": "Huanglongbing (Citrus greening)",
+    "french_name": "Huanglongbing (verdissement des agrumes)",
+    "symptoms": [
+      "Feuilles jaunes asymétriques",
+      "Nervures restant vertes",
+      "Fruits petits et malformés",
+      "Dépérissement progressif"
+    ],
+    "treatment": [
+      "Enlever et détruire les arbres infectés",
+      "Contrôler les insectes vecteurs (psylles)",
+      "Utiliser des plants certifiés sains",
+      "Aucun traitement curatif connu"
+    ]
+  },
+  "Peach___Bacterial_spot": {
+    "plant": "Peach",
+    "disease": "Bacterial spot",
+    "french_name": "Tache bactérienne de la pêche",
+    "symptoms": [
+      "Taches brunâtres sur les feuilles",
+      "Halos jaunes autour des lésions",
+      "Lésions sur les fruits",
+      "Chute prématurée des feuilles"
+    ],
+    "treatment": [
+      "Appliquer du cuivre avant le débourrement",
+      "Pulvériser pendant la saison de croissance",
+      "Enlever les branches infectées",
+      "Améliorer le drainage"
+    ]
+  },
+  "Peach___healthy": {
+    "plant": "Peach",
+    "disease": "Healthy",
+    "french_name": "Feuille saine",
+    "symptoms": [
+      "Aucun symptôme visible",
+      "Feuille verte et vigoureuse"
+    ],
+    "treatment": [
+      "Aucun traitement nécessaire",
+      "Gestion normale"
+    ]
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "plant": "Pepper (bell)",
+    "disease": "Bacterial spot",
+    "french_name": "Tache bactérienne du poivron",
+    "symptoms": [
+      "Petites taches brunes circulaires",
+      "Halos jaunes autour des taches",
+      "Lésions sur les fruits",
+      "Défoliation progressive"
+    ],
+    "treatment": [
+      "Utiliser des plants sains certifiés",
+      "Appliquer du cuivre (pulvérisateur)",
+      "Éviter l'humidité foliaire",
+      "Rotation des cultures"
+    ]
+  },
+  "Pepper,_bell___healthy": {
+    "plant": "Pepper (bell)",
+    "disease": "Healthy",
+    "french_name": "Feuille saine",
+    "symptoms": [
+      "Aucun symptôme visible",
+      "Feuille verte et saine"
+    ],
+    "treatment": [
+      "Aucun traitement nécessaire",
+      "Gestion normale"
+    ]
+  },
+  "Potato___Early_blight": {
+    "plant": "Potato",
+    "disease": "Early blight",
+    "french_name": "Brûlure précoce de la pomme de terre",
+    "symptoms": [
+      "Taches circulaires avec anneaux concentriques",
+      "Progression vers les nervures",
+      "Jaunissement et nécrose",
+      "Chute des feuilles inférieures"
+    ],
+    "treatment": [
+      "Appliquer du mancozèbe",
+      "Utiliser du chlorothalonil",
+      "Rotation des cultures",
+      "Éliminer les plantes affectées"
+    ]
+  },
+  "Potato___Late_blight": {
+    "plant": "Potato",
+    "disease": "Late blight",
+    "french_name": "Mildiou de la pomme de terre",
+    "symptoms": [
+      "Taches aqueuses grises-vertes",
+      "Exudation blanche au revers",
+      "Odeur caractéristique",
+      "Pourriture des tubercules"
+    ],
+    "treatment": [
+      "Appliquer du mancozèbe ou du cuivre",
+      "Pulvériser régulièrement en saison humide",
+      "Utiliser des variétés résistantes",
+      "Détruire les tubercules infectés"
+    ]
+  },
+  "Potato___healthy": {
+    "plant": "Potato",
+    "disease": "Healthy",
+    "french_name": "Feuille saine",
+    "symptoms": [
+      "Aucun symptôme visible",
+      "Feuille verte et vigoureuse"
+    ],
+    "treatment": [
+      "Aucun traitement nécessaire",
+      "Gestion normale"
+    ]
+  },
+  "Raspberry___healthy": {
+    "plant": "Raspberry",
+    "disease": "Healthy",
+    "french_name": "Feuille saine",
+    "symptoms": [
+      "Aucun symptôme visible",
+      "Feuille verte et saine"
+    ],
+    "treatment": [
+      "Aucun traitement nécessaire",
+      "Gestion normale"
+    ]
+  },
+  "Soybean___healthy": {
+    "plant": "Soybean",
+    "disease": "Healthy",
+    "french_name": "Feuille saine",
+    "symptoms": [
+      "Aucun symptôme visible",
+      "Feuille verte et vigoureuse"
+    ],
+    "treatment": [
+      "Aucun traitement nécessaire",
+      "Gestion normale"
+    ]
+  },
+  "Squash___Powdery_mildew": {
+    "plant": "Squash",
+    "disease": "Powdery mildew",
+    "french_name": "Oïdium de la courge",
+    "symptoms": [
+      "Poudre blanche sur les deux faces",
+      "Feuilles déformées",
+      "Réduction de la photosynthèse",
+      "Chute des feuilles"
+    ],
+    "treatment": [
+      "Appliquer du soufre mouillable",
+      "Utiliser du bicarbonate de potassium",
+      "Améliorer la ventilation",
+      "Arroser à la base uniquement"
+    ]
+  },
+  "Strawberry___Leaf_scorch": {
+    "plant": "Strawberry",
+    "disease": "Leaf scorch",
+    "french_name": "Brûlure foliaire de la fraise",
+    "symptoms": [
+      "Taches rouges/pourpres circulaires",
+      "Progression des taches",
+      "Nécrose des tissus",
+      "Destruction des feuilles"
+    ],
+    "treatment": [
+      "Enlever les feuilles affectées",
+      "Appliquer du sulfate de cuivre",
+      "Améliorer le drainage",
+      "Utiliser des plants certifiés"
+    ]
+  },
+  "Strawberry___healthy": {
+    "plant": "Strawberry",
+    "disease": "Healthy",
+    "french_name": "Feuille saine",
+    "symptoms": [
+      "Aucun symptôme visible",
+      "Feuille verte et saine"
+    ],
+    "treatment": [
+      "Aucun traitement nécessaire",
+      "Gestion normale"
+    ]
+  },
+  "Tomato___Bacterial_spot": {
+    "plant": "Tomato",
+    "disease": "Bacterial spot",
+    "french_name": "Tache bactérienne de la tomate",
+    "symptoms": [
+      "Taches brunes circulaires avec halos jaunes",
+      "Lésions sur les fruits et tiges",
+      "Défoliation progressive",
+      "Réduction du rendement"
+    ],
+    "treatment": [
+      "Utiliser des plants certifiés sains",
+      "Appliquer du cuivre (Bordeaux)",
+      "Éviter l'humidité foliaire",
+      "Rotation des cultures (3-4 ans)"
+    ]
+  },
+  "Tomato___Early_blight": {
+    "plant": "Tomato",
+    "disease": "Early blight",
+    "french_name": "Brûlure précoce de la tomate",
+    "symptoms": [
+      "Taches circulaires avec anneaux concentriques",
+      "Progression des feuilles inférieures",
+      "Jaunissement et nécrose",
+      "Chute du feuillage"
+    ],
+    "treatment": [
+      "Appliquer du mancozèbe",
+      "Enlever les feuilles inférieures",
+      "Améliorer la circulation de l'air",
+      "Rotation des cultures"
+    ]
+  },
+  "Tomato___Late_blight": {
+    "plant": "Tomato",
+    "disease": "Late blight",
+    "french_name": "Mildiou de la tomate",
+    "symptoms": [
+      "Taches aqueuses gris-vert",
+      "Exudation blanche au revers",
+      "Pourriture des fruits",
+      "Pourriture des tiges"
+    ],
+    "treatment": [
+      "Appliquer du mancozèbe ou du cuivre",
+      "Pulvériser tous les 7-10 jours",
+      "Détruire les plants infectés",
+      "Utiliser des variétés résistantes"
+    ]
+  },
+  "Tomato___Leaf_Mold": {
+    "plant": "Tomato",
+    "disease": "Leaf Mold",
+    "french_name": "Moisissure foliaire de la tomate",
+    "symptoms": [
+      "Taches jaunes sur la face supérieure",
+      "Poudre olive au revers",
+      "Chute des feuilles",
+      "Exposition des fruits au soleil"
+    ],
+    "treatment": [
+      "Améliorer la ventilation",
+      "Réduire l'humidité",
+      "Appliquer du soufre mouillable",
+      "Enlever les feuilles affectées"
+    ]
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "plant": "Tomato",
+    "disease": "Septoria leaf spot",
+    "french_name": "Tache septorienne de la tomate",
+    "symptoms": [
+      "Petites taches circulaires avec centres gris",
+      "Pycnides noires au centre",
+      "Jaunissement des feuilles",
+      "Défoliation progressive"
+    ],
+    "treatment": [
+      "Enlever les feuilles infectées",
+      "Appliquer du mancozèbe",
+      "Améliorer le drainage",
+      "Rotation des cultures"
+    ]
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "plant": "Tomato",
+    "disease": "Spider mites (Two-spotted spider mite)",
+    "french_name": "Acarien tisserand commun de la tomate",
+    "symptoms": [
+      "Piqûres jaunes sur les feuilles",
+      "Toiles fines sur les plantes",
+      "Jaunissement et dessèchement",
+      "Défoliation sévère"
+    ],
+    "treatment": [
+      "Pulvériser de l'eau régulièrement",
+      "Utiliser de l'huile horticole",
+      "Appliquer des acaricides (abamectine)",
+      "Augmenter l'humidité"
+    ]
+  },
+  "Tomato___Target_Spot": {
+    "plant": "Tomato",
+    "disease": "Target Spot",
+    "french_name": "Tache en cible de la tomate",
+    "symptoms": [
+      "Taches circulaires avec zones concentriques",
+      "Centre gris avec auréole brune",
+      "Progression sur les feuilles",
+      "Chute des feuilles inférieures"
+    ],
+    "treatment": [
+      "Appliquer du chlorothalonil",
+      "Utiliser du mancozèbe",
+      "Enlever les feuilles affectées",
+      "Améliorer la circulation de l'air"
+    ]
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "plant": "Tomato",
+    "disease": "Tomato Yellow Leaf Curl Virus",
+    "french_name": "Virus de l'enroulement jaune du tomate",
+    "symptoms": [
+      "Feuilles jaunes et enroulées",
+      "Nanisme de la plante",
+      "Réduction drastique du rendement",
+      "Symptômes en mosaïque"
+    ],
+    "treatment": [
+      "Utiliser des plants certifiés résistants",
+      "Contrôler les aleurodes (vecteurs)",
+      "Éliminer les plantes infectées",
+      "Appliquer des insecticides si nécessaire"
+    ]
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "plant": "Tomato",
+    "disease": "Tomato mosaic virus",
+    "french_name": "Virus de la mosaïque de la tomate",
+    "symptoms": [
+      "Motif en mosaïque sur les feuilles",
+      "Feuilles déformées et ridées",
+      "Fruits déformés",
+      "Réduction de la production"
+    ],
+    "treatment": [
+      "Utiliser des variétés résistantes (TMV)",
+      "Enlever et détruire les plantes infectées",
+      "Désinfecter les outils",
+      "Aucun traitement curatif connu"
+    ]
+  },
+  "Tomato___healthy": {
+    "plant": "Tomato",
+    "disease": "Healthy",
+    "french_name": "Feuille saine",
+    "symptoms": [
+      "Aucun symptôme visible",
+      "Feuille verte, vigoureuse et saine"
+    ],
+    "treatment": [
+      "Aucun traitement nécessaire",
+      "Maintenir les conditions de culture normales"
+    ]
+  }
+}

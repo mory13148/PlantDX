@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+
+# Dataset
+data/
+
+# Model files
+*.pth
+*.pt
+*.ckpt
+
+# Streamlit
+.streamlit/secrets.toml
