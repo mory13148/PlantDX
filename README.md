@@ -87,7 +87,7 @@ PlantDX/
 │   ├── inference.py
 │   └── diseases.json
 │
-├── notebooks/
+├── plantdx.ipynb
 │
 ├── .gitignore
 ├── README.md
