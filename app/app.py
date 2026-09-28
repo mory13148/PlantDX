@@ -5,11 +5,6 @@ from pathlib import Path
 import streamlit as st
 from PIL import Image
 
-
-# ============================================================
-# PATHS
-# ============================================================
-
 ROOT_DIR = Path(__file__).resolve().parent.parent
 SRC_DIR = ROOT_DIR / "src"
 
@@ -17,19 +12,10 @@ if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
 
-# ============================================================
-# MODEL
-# ============================================================
-
 from inference import (
     predict_image,
     format_class_name,
 )
-
-
-# ============================================================
-# STREAMLIT CONFIG
-# ============================================================
 
 st.set_page_config(
     page_title="PlantDx",
@@ -37,11 +23,6 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="collapsed",
 )
-
-
-# ============================================================
-# LOAD DISEASE DATABASE
-# ============================================================
 
 @st.cache_data
 def load_disease_database():
@@ -57,11 +38,6 @@ def load_disease_database():
                 return json.load(f)
 
     return {}
-
-
-# ============================================================
-# HELPERS
-# ============================================================
 
 def clean_list_item(item):
     """
@@ -85,12 +61,6 @@ def display_list(items):
 
     for item in items:
         st.markdown(f"- {clean_list_item(item)}")
-
-
-# ============================================================
-# DISEASE INFORMATION
-# ============================================================
-
 def display_disease_info(class_name, diseases_db):
     """
     Affiche les informations en français concernant
@@ -108,40 +78,27 @@ def display_disease_info(class_name, diseases_db):
     st.divider()
 
     st.subheader("🩺 Informations")
-
-    # Nom français
     french_name = disease.get(
         "french_name",
         class_name
     )
 
     st.markdown(f"### 🌿 {french_name}")
-
-    # Plante
     plant = disease.get("plant")
 
     if plant:
         st.markdown("**🌱 Plante**")
         st.write(plant)
-
-    # Symptômes
     symptoms = disease.get("symptoms")
 
     if symptoms:
         st.markdown("**🔎 Symptômes**")
         display_list(symptoms)
-
-    # Traitement
     treatment = disease.get("treatment")
 
     if treatment:
         st.markdown("**💊 Traitement recommandé**")
         display_list(treatment)
-
-
-# ============================================================
-# DISPLAY PREDICTION
-# ============================================================
 
 def display_prediction(result, diseases_db):
     """
@@ -150,10 +107,6 @@ def display_prediction(result, diseases_db):
 
     if result is None:
         return
-
-    # --------------------------------------------------------
-    # UNKNOWN
-    # --------------------------------------------------------
 
     if result.get("is_unknown", False):
 
@@ -175,10 +128,6 @@ def display_prediction(result, diseases_db):
         )
 
         return
-
-    # --------------------------------------------------------
-    # KNOWN CLASS
-    # --------------------------------------------------------
 
     class_name = result.get("class")
 
@@ -209,17 +158,7 @@ def display_prediction(result, diseases_db):
         diseases_db
     )
 
-
-# ============================================================
-# MAIN APP
-# ============================================================
-
 def main():
-
-    # --------------------------------------------------------
-    # HEADER
-    # --------------------------------------------------------
-
     st.title("🌱 PlantDx")
 
     st.caption(
@@ -227,16 +166,7 @@ def main():
     )
 
     st.divider()
-
-    # --------------------------------------------------------
-    # DATABASE
-    # --------------------------------------------------------
-
     diseases_db = load_disease_database()
-
-    # --------------------------------------------------------
-    # IMAGE UPLOAD
-    # --------------------------------------------------------
 
     st.subheader("📷 Importer une feuille")
 
@@ -251,10 +181,6 @@ def main():
         label_visibility="collapsed",
     )
 
-    # --------------------------------------------------------
-    # NO IMAGE
-    # --------------------------------------------------------
-
     if uploaded_file is None:
 
         st.info(
@@ -262,10 +188,6 @@ def main():
         )
 
         return
-
-    # --------------------------------------------------------
-    # OPEN IMAGE
-    # --------------------------------------------------------
 
     try:
 
@@ -281,10 +203,6 @@ def main():
 
         return
 
-    # --------------------------------------------------------
-    # IMAGE PREVIEW
-    # --------------------------------------------------------
-
     st.subheader("👀 Aperçu")
 
     st.image(
@@ -292,26 +210,14 @@ def main():
         use_container_width=True
     )
 
-    # --------------------------------------------------------
-    # ANALYSE BUTTON
-    # --------------------------------------------------------
-
     analyze = st.button(
         "🔍 Analyser la feuille",
         type="primary",
         use_container_width=True,
     )
 
-    # --------------------------------------------------------
-    # WAIT FOR BUTTON
-    # --------------------------------------------------------
-
     if not analyze:
         return
-
-    # --------------------------------------------------------
-    # INFERENCE
-    # --------------------------------------------------------
 
     with st.spinner(
         "Analyse de la feuille en cours..."
@@ -331,29 +237,16 @@ def main():
 
             return
 
-    # --------------------------------------------------------
-    # RESULT
-    # --------------------------------------------------------
-
     display_prediction(
         result,
         diseases_db
     )
-
-    # --------------------------------------------------------
-    # FOOTER
-    # --------------------------------------------------------
 
     st.divider()
 
     st.caption(
         "PlantDx · Computer Vision & Deep Learning"
     )
-
-
-# ============================================================
-# RUN
-# ============================================================
 
 if __name__ == "__main__":
     main()
